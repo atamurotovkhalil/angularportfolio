@@ -1,0 +1,17 @@
+<section class="container">
+    <nav class="services_menu">
+        <ul class="menus">
+            <li (click)="selectedNewsId()"  class="menu_items"> <a routerLink='/services/news'> News </a></li>
+        </ul>
+        <ul>
+            <li (click)="selectedStartupsId()" class="menu_items"><a > Startups </a> </li>
+        </ul>
+        <ul>
+            <li (click)="selectedHitechId()" class="menu_items"> <a > Hi-Tech </a> </li>
+        </ul>
+    </nav>
+    <div class="detail" >
+        <img *ngIf="post" src="{{post.url}}"  >
+        <div *ngIf="post">{{post.title}}</div>
+    </div>
+</section>

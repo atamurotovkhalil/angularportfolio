@@ -1,0 +1,33 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    font-family: quicksand;
+
+}
+.menu_items {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px;
+}
+.menu_items a {
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+.servces_menu {
+    width: 20%;
+    float: left;
+}
+.detail img {
+    width: 40%;
+    float: right;
+}
+.detail div {
+    width: 40%;
+    float:inline-start;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px;
+    font-family: quicksand;
+}

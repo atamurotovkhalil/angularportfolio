@@ -1,0 +1,44 @@
+header {
+    padding: 0;
+    border-bottom: 1px solid green;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+a:hover {
+    color: green;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    font-family: quicksand;
+}
+.main_header_brand img {
+    width: 48px;
+}
+.main_header_brand {
+    display: inline-block;
+    vertical-align: middle;
+    margin:5px 45px;
+}
+
+.main_navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main_navigation_item {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 30px;
+
+}
+.main_navigation_item.active a {
+    color: green;
+}
+.main_navigation ul {
+    list-style-type: none;
+    margin: 0;
+
+}

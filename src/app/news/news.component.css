@@ -1,0 +1,25 @@
+.news_text {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 30px;
+    line-height: 27px;
+}
+.news_image {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+.news_body {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.news_title {
+    margin-top: 50px;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    font-family: quicksand;
+}
