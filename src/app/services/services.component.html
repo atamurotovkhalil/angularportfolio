@@ -10,8 +10,8 @@
             <li (click)="selectedHitechId()" class="menu_items"> <a > Hi-Tech </a> </li>
         </ul>
     </nav>
-    <div class="detail" >
-        <img *ngIf="post" src="{{post.url}}"  >
-        <div *ngIf="post">{{post.title}}</div>
+    <div *ngIf="post" class="detail" >
+        <img  src="{{post.url}}"  >
+        <div >{{post.title}}</div>
     </div>
 </section>
